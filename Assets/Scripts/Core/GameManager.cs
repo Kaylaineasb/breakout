@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public static event Action<int> LivesChanged;
     public static event Action<int> LevelStarted; // número do nível (1, 2, 3...)
     public static event Action LifeLost;
+    public static event Action LevelCleared; // nível limpo (não dispara no último: lá vira Victory)
     public static event Action<int[]> RecentScoresChanged; // mais recente primeiro
 
     [SerializeField] PaddleController paddle;
@@ -191,6 +192,7 @@ public class GameManager : MonoBehaviour
             yield break;
         }
 
+        LevelCleared?.Invoke();
         yield return new WaitForSeconds(levelTransitionDelay);
         levelIndex++;
         LoadLevel(levelIndex);
