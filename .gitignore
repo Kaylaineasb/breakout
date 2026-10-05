@@ -1,0 +1,70 @@
+# ===== Unity =====
+# Pastas geradas pelo editor (recriadas ao abrir o projeto)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Builds (WebGL e outros) - publique no itch.io, não no repositório
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]uild-*/
+
+# Asset Store tools
+/[Aa]ssets/AssetStoreTools*
+
+# Plugins do Visual Studio Code gerados pelo Unity
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Arquivos de IDE
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Metas de arquivos ignorados acima
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Relatórios de crash
+sysinfo.txt
+
+# Builds mobile
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics
+crashlytics-build.properties
+
+# Addressables (artefatos de build)
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
+desktop.ini
